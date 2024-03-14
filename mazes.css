@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.row {
+  display: flex;
+}
+
+.cell {
+  height: 50px;
+  width: 50px;
+  background-color: #ffffff; /* Set background color for paths */
+}
+
+.path {
+  height: 50px;
+  width: 50px;
+  background-image: url(dirt.jpeg);
+}
+
+.wall {
+  height: 50px;
+  width: 50px;
+  background-image: url(cobble.jpg);
+}
+
+.player {
+  height: 50px;
+  width: 50px;
+  background-image: url(player.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-color: rgb(73, 43, 43);
+}
+
+.target {
+  height: 50px;
+  width: 50px;
+  background-image: url(treasure.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-color: rgb(73, 43, 43);
+}
